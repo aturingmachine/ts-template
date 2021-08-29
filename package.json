@@ -1,0 +1,26 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "Template For Typescript Projects",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node init.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "jest": "^27.1.0",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "@types/node": "^16.7.6"
+  }
+}

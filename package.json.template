@@ -1,0 +1,16 @@
+{
+  "name": "PKG.NAME",
+  "version": "1.0.0",
+  "description": "PKG.DESCRIPTION",
+  PKG.MAIN
+  "scripts": {
+    PKG.PREPUB
+    "build": "tsc",
+    "dev": "npm run build && node dist/index.js",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT"
+}

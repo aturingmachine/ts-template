@@ -1,0 +1,26 @@
+{
+  "include": [
+    "src/**/*",
+  ],
+  "compilerOptions": {
+    "target": "TS.TARGET",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": [
+      "TS.LIB"
+    ],
+    "outDir": "dist",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    },
+  },
+}
